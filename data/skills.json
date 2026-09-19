@@ -1,17 +1,53 @@
+
 {
   "Python": ["python"],
   "JavaScript": ["javascript", "js"],
-  "Machine Learning": ["machine learning", "ml"],
-  "Natural Language Processing": ["natural language processing", "nlp"],
-  "PostgreSQL": ["postgresql", "postgres"],
-  "Scikit-learn": ["scikit-learn", "sklearn"],
-  "Docker": ["docker"],
-  "Git": ["git"],
+  "TypeScript": ["typescript", "ts"],
+  "Java": ["java"],
+  "C++": ["c++", "cpp"],
+  "C#": ["c#", "csharp"],
+  "Go": ["golang", "go"],
+  "PHP": ["php"],
   "SQL": ["sql"],
+  "HTML": ["html"],
+  "CSS": ["css"],
+
+  "React": ["react", "react.js"],
+  "Angular": ["angular"],
+  "Vue.js": ["vue", "vue.js"],
+  "Node.js": ["node", "node.js","node js"],
+  "Django": ["django"],
+  "FastAPI": ["fastapi"],
+  "Flask": ["flask"],
+
+  "Machine Learning": ["machine learning", "ml"],
+  "Deep Learning": ["deep learning","dl"],
+  "Natural Language Processing": [
+    "natural language processing",
+    "nlp"
+  ],
+  "Computer Vision": ["computer vision"],
+  "Scikit-learn": [
+    "scikit-learn",
+    "scikit learn",
+    "sklearn"
+  ],
   "PyTorch": ["pytorch"],
   "TensorFlow": ["tensorflow"],
-  "AWS": ["aws"],
+
+  "PostgreSQL": ["postgresql", "postgres"],
+  "MySQL": ["mysql"],
+  "MongoDB": ["mongodb", "mongo"],
+  "Redis": ["redis"],
+
+  "Docker": ["docker"],
+  "Kubernetes": ["kubernetes", "k8s"],
+  "Git": ["git"],
+  "GitHub": ["github"],
+  "GitLab": ["gitlab"],
   "Linux": ["linux"],
-  "FastAPI": ["fastapi"],
-  "Django": ["django"]
+  "AWS": ["aws"],
+  "Azure": ["azure"],
+  "Google Cloud": ["google cloud", "gcp"]
 }
+
