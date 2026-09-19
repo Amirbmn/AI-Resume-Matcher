@@ -1,0 +1,17 @@
+{
+  "Python": ["python"],
+  "JavaScript": ["javascript", "js"],
+  "Machine Learning": ["machine learning", "ml"],
+  "Natural Language Processing": ["natural language processing", "nlp"],
+  "PostgreSQL": ["postgresql", "postgres"],
+  "Scikit-learn": ["scikit-learn", "sklearn"],
+  "Docker": ["docker"],
+  "Git": ["git"],
+  "SQL": ["sql"],
+  "PyTorch": ["pytorch"],
+  "TensorFlow": ["tensorflow"],
+  "AWS": ["aws"],
+  "Linux": ["linux"],
+  "FastAPI": ["fastapi"],
+  "Django": ["django"]
+}
