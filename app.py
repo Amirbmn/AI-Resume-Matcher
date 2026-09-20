@@ -141,7 +141,6 @@ if uploaded_file is not None:
         st.write(missing_skills)
 
 
-        # Skill score
 
         skill_score = calculate_skill_score(
             found_skills,
@@ -156,7 +155,7 @@ if uploaded_file is not None:
         )
 
 
-        # Keyword similarity
+    
 
         keyword_score = calculate_keyword_similarity(
             text,
@@ -171,7 +170,6 @@ if uploaded_file is not None:
         )
 
 
-        # Semantic similarity
 
         semantic_score = calculate_semantic_similarity(
             text,
@@ -185,8 +183,6 @@ if uploaded_file is not None:
             f"{semantic_score:.1f}%",
         )
 
-
-        # Experience
 
         candidate_years = extract_experience_years(
             text
@@ -219,8 +215,6 @@ if uploaded_file is not None:
         )
 
 
-        # Education
-
         education_score = calculate_education_score(
             text,
             job_description,
@@ -232,9 +226,6 @@ if uploaded_file is not None:
             "Education Match",
             f"{education_score:.1f}%",
         )
-
-
-        # Role
 
         role_score = calculate_role_score(
             text,
@@ -249,8 +240,6 @@ if uploaded_file is not None:
         )
 
 
-        # Overall score
-
         overall_score = calculate_overall_score(
             skill_score,
             semantic_score,
@@ -259,9 +248,6 @@ if uploaded_file is not None:
             education_score,
             role_score,
         )
-
-
-        # Score breakdown
 
         st.subheader("Match Score Breakdown")
 
@@ -296,8 +282,6 @@ if uploaded_file is not None:
         )
 
 
-        # Overall match
-
         st.subheader("Overall Match")
 
         st.metric(
@@ -306,7 +290,6 @@ if uploaded_file is not None:
         )
 
 
-        # Recommendations
 
         st.subheader(
             "Resume Recommendations"
@@ -321,9 +304,6 @@ if uploaded_file is not None:
             st.write(
                 f"• {recommendation}"
             )
-
-
-        # Relevant passages
 
         relevant_passages = find_relevant_passages(
             text,
